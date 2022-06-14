@@ -73,7 +73,7 @@
 *::after {
   box-sizing: border-box;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
@@ -116,6 +116,7 @@ hr {
 hr:not([size]) {
   height: 1px;
 }
+
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
@@ -252,7 +253,7 @@ sup {
 
 a {
   color: #64a19d;
-  text-decoration: underline;
+  text-decoration: none;
 }
 a:hover {
   color: #50817e;
@@ -11565,7 +11566,7 @@ body {
   letter-spacing: 0.15rem;
   border: 0;
 }
-
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 .masthead {
   position: relative;
   width: 100%;
@@ -11578,11 +11579,11 @@ body {
   background-attachment: scroll;
   background-size: cover;
 }
+
 .masthead h1, .masthead .h1 {
-  font-family: 'Gloria Hallelujah', cursive;
+  font-family: 'Amatic SC', cursive;
   font-size: 2.5rem;
   line-height: 2.5rem;
-  letter-spacing: 0.8rem;
   background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
@@ -11624,6 +11625,7 @@ body {
 
 .donation-section {
   padding: 10rem 0;
+  padding-top: 40px;
 }
 .donation-section .featured-text {
   padding: 2rem;
